@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Millennium Consultants Inc.</title>
+<style>
+	html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: auto;
+    border: 1px solid #10069f;
+}
+.flex-item {
+    padding: 21px;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    color: #00b0b9;
+	font-family: Arial;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+</style>
+<link href="https://client.dialogview.ai/css/client_chat.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+	<div class="flex-container">
+		<div class="row"> 
+			<div class="flex-item">Site under maintenance. Please check back after some time.<br />Thank you, Millenniumz Team!
+		</div>
+    </div>
+</div>
+	<div class="chat-toggler-client">
+        <span class="agent-image-wrapper-client">
+            <img id="chat-bubble-shape" class="chat-avatar">
+            <span id="chatBubbleText" class="help-text"></span>
+        </span>
+    </div>
+    <div class="msgWrap">
+        <div class="msger-header-options-client" data-toggle="tooltip" data-placement="bottom" data-trigger="hover" title="Close">
+            <img src="https://chatqa.dialogview.ai/images/cancel.svg" alt="cancel-icon" class="close-btn-client ctl-btn">
+        </div>
+        <button type="button" class="screen-minimize-btn" data-toggle="tooltip" data-placement="bottom" data-trigger="hover" title="Minimize"><img src="https://chatqa.dialogview.ai/images/minimize-icon.svg" alt="minimize-icon"></button>
+        <button type="button" class="screen-resize-btn" data-toggle="tooltip" data-placement="bottom" data-trigger="hover" title="Screen resize"><img src="https://chatqa.dialogview.ai/images/resize-whit.svg" alt="resize-icon"></button>
+        <iframe id="oneview-chatbot" class="dialogview-chatbot" sandbox="allow-same-origin allow-scripts allow-popups" allow="camera;microphone" seamless
+            src="https://chatqa.dialogview.ai/iframe_milliqa_socket.html" title="Chat Box"></iframe>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://chatdev.dialogview.ai/js/dialogview_main.js"></script>
+</body>
+</html>
